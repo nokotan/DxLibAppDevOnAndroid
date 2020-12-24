@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM64">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM64">
+      <Configuration>Release</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <RootNamespace>DxLibAndroidSample</RootNamespace>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <ProjectVersion>1.0</ProjectVersion>
+    <ProjectGuid>{4e99728c-673b-4481-a98d-66caad65ad5e}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(AndroidTargetsPath)\Android.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <ConfigurationType>Application</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <ConfigurationType>Application</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <ConfigurationType>Application</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <ConfigurationType>Application</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <ConfigurationType>Application</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <ConfigurationType>Application</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <ConfigurationType>Application</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <ConfigurationType>Application</ConfigurationType>
+  </PropertyGroup>
+  <Import Project="$(AndroidTargetsPath)\Android.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
+    <AntPackage>
+      <AndroidAppLibName>$(RootNamespace)</AndroidAppLibName>
+    </AntPackage>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
+    <AntPackage>
+      <AndroidAppLibName>$(RootNamespace)</AndroidAppLibName>
+    </AntPackage>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <AntPackage>
+      <AndroidAppLibName>$(RootNamespace)</AndroidAppLibName>
+    </AntPackage>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <AntPackage>
+      <AndroidAppLibName>$(RootNamespace)</AndroidAppLibName>
+    </AntPackage>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <AntPackage>
+      <AndroidAppLibName>$(RootNamespace)</AndroidAppLibName>
+    </AntPackage>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <AntPackage>
+      <AndroidAppLibName>$(RootNamespace)</AndroidAppLibName>
+    </AntPackage>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+    <AntPackage>
+      <AndroidAppLibName>$(RootNamespace)</AndroidAppLibName>
+    </AntPackage>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
+    <AntPackage>
+      <AndroidAppLibName>$(RootNamespace)</AndroidAppLibName>
+    </AntPackage>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Content Include="assets\AddressTest.mqo" />
+    <Content Include="assets\back.bmp" />
+    <Content Include="assets\BackCulling.mqo" />
+    <Content Include="assets\BlendGraph.bmp" />
+    <Content Include="assets\BloomTestStage.mqo" />
+    <Content Include="assets\ColTestStage.mqo" />
+    <Content Include="assets\DxChara.x" />
+    <Content Include="assets\DxCharaEye.tga" />
+    <Content Include="assets\DxCharaEye2.tga" />
+    <Content Include="assets\FilterTest.mqo" />
+    <Content Include="assets\GMap.bmp" />
+    <Content Include="assets\GradTest.bmp" />
+    <Content Include="assets\KabeTex.bmp" />
+    <Content Include="assets\Kao.bmp" />
+    <Content Include="assets\Mesh.bmp" />
+    <Content Include="assets\Num.bmp" />
+    <Content Include="assets\Plane.mqo" />
+    <Content Include="assets\Scene1.jpg" />
+    <Content Include="assets\Scene2.jpg" />
+    <Content Include="assets\SimpleModel.mqo" />
+    <Content Include="assets\SimpleModelVertexColor.mqo" />
+    <Content Include="assets\SimplePillarStage.mqo" />
+    <Content Include="assets\Src1.bmp" />
+    <Content Include="assets\Src2.tga" />
+    <Content Include="assets\test.wav" />
+    <Content Include="assets\test1.bmp" />
+    <Content Include="assets\Test1.enc" />
+    <Content Include="assets\test2.bmp" />
+    <Content Include="assets\test3.bmp" />
+    <Content Include="assets\test4.bmp" />
+    <Content Include="assets\test6.bmp" />
+    <Content Include="assets\test6_a.bmp" />
+    <Content Include="assets\testDiv.bmp" />
+    <Content Include="assets\testMask.bmp" />
+    <Content Include="assets\testMask2.bmp" />
+    <Content Include="assets\TestTex1.jpg" />
+    <Content Include="assets\testWav.enc" />
+    <Content Include="assets\Tex1.bmp" />
+    <Content Include="assets\Tex2.bmp" />
+    <Content Include="assets\Tex3.bmp" />
+    <Content Include="assets\TexAddrTransfTest.bmp" />
+    <Content Include="assets\TexAddrTransfTest.mqo" />
+    <Content Include="assets\ToonGradTex.bmp" />
+    <Content Include="res\values\strings.xml" />
+    <AntBuildXml Include="build.xml" />
+    <AndroidManifest Include="AndroidManifest.xml">
+      <SubType>Designer</SubType>
+    </AndroidManifest>
+    <AntProjectPropertiesFile Include="project.properties" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DxLibAndroidSample.NativeActivity\DxLibAndroidSample.NativeActivity.vcxproj">
+      <Project>{c3a9ed08-64f7-4833-aef8-5826eb22fda2}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(AndroidTargetsPath)\Android.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>
